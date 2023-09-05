@@ -7,14 +7,20 @@ for (var i = 0;  i < cibiPreferiti.Length; i++)
 }
 
 ///Stampo il cibo nella prima posizione 
-Console.WriteLine(cibiPreferiti[0]);
+Console.WriteLine($"Il cibo in assoluto preferito è: {cibiPreferiti[0]}");
 
 ///Stampo il cibo nell'ultima posizione 
-Console.WriteLine(cibiPreferiti[cibiPreferiti.Length - 1]);
+Console.WriteLine($"Il cibo che preferisco meno è: {cibiPreferiti[cibiPreferiti.Length - 1]}");
 
 ///Stampo il cibo di metà classifica
-Console.WriteLine(cibiPreferiti[cibiPreferiti.Length / 2]);
+Console.WriteLine($"Il cibo che preferisco a metà è: {cibiPreferiti[cibiPreferiti.Length / 2]}");
 
+/// aggiungo un elemento alla lista in modo da stamparne due
+cibiPreferiti[0] = "Margherita";
 
+for (var i = 0; i < cibiPreferiti.Length; i++)
+{
+    Console.WriteLine(cibiPreferiti[i]);
+}
 
-
+Console.WriteLine($"I cibi che preferisco a metà sono: {cibiPreferiti[cibiPreferiti.Length / 2]} e anche {cibiPreferiti[cibiPreferiti.Length / 2 - 1]}");
