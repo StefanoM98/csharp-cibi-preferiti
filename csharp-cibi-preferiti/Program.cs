@@ -1,5 +1,5 @@
 ﻿string[] cibiPreferiti = { "Pasta al pesto", "Pasta e patate", "Lasagne", "Spaghetti con le vongole", "Gomiti con uova e ricotta"};
-Console.WriteLine("I miei cibi preferiti sono " +  cibiPreferiti.Length);
+Console.WriteLine($"I miei cibi preferiti sono {cibiPreferiti.Length} ");
 
 for (var i = 0;  i < cibiPreferiti.Length; i++)
 {
