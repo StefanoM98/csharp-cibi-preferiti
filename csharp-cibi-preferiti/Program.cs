@@ -12,5 +12,9 @@ Console.WriteLine(cibiPreferiti[0]);
 ///Stampo il cibo nell'ultima posizione 
 Console.WriteLine(cibiPreferiti[cibiPreferiti.Length - 1]);
 
-///ciaonnfw
+///Stampo il cibo di metà classifica
+Console.WriteLine(cibiPreferiti[cibiPreferiti.Length / 2]);
+
+
+
 
