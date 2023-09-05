@@ -1,4 +1,4 @@
-﻿string[] cibiPreferiti = { "Pasta al pesto", "Pasta e patate", "Lasagne", "Spaghetti con le vongole", "Gomiti con uova e ricotta"};
+﻿string[] cibiPreferiti = { "Pasta al pesto", "Pasta e patate", "Lasagne", "Spaghetti con le vongole", "Gomiti con uova e ricotta", "Margherita"};
 Console.WriteLine($"I miei cibi preferiti sono {cibiPreferiti.Length} ");
 
 for (var i = 0;  i < cibiPreferiti.Length; i++)
@@ -16,7 +16,6 @@ Console.WriteLine($"Il cibo che preferisco meno è: {cibiPreferiti[cibiPreferiti
 Console.WriteLine($"Il cibo che preferisco a metà è: {cibiPreferiti[cibiPreferiti.Length / 2]}");
 
 /// aggiungo un elemento alla lista in modo da stamparne due
-cibiPreferiti[0] = "Margherita";
 
 for (var i = 0; i < cibiPreferiti.Length; i++)
 {
